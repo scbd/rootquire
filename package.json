@@ -1,0 +1,10 @@
+{
+  "description": "Load project modules relatively to project root",
+  "homepage": "https://github.com/scbd/rootquire#readme",
+  "name": "rootquire",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scbd/rootquire.git"
+  },
+  "version": "1.0.0"
+}
