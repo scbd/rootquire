@@ -6,7 +6,7 @@ var   rootPath = '.';
 for(let node_modulesPath of require.main.paths) {
 
     if(fs.existsSync(node_modulesPath)) {
-        rootPath = path.relative(path.join(require.main.filename, '..'), path.join(node_modulesPath, '..'));
+        rootPath = path.relative(path.join(require.main.filename, '..'), path.join(node_modulesPath, '..')) || '.';
         break;
     }
 }
